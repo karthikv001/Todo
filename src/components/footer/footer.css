@@ -1,0 +1,47 @@
+.footer{
+    padding: 0 10%;
+    margin:4rem 0;
+    display:flex;
+    justify-content: space-between;
+}
+
+.footer.icons{
+    margin-top: 20px;
+    
+}
+
+.icons .icon{
+    margin-right: 10px;
+}
+
+
+.footer-menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-menu .fmenu ul li{
+    list-style-type: none;
+}
+
+.fmenu{
+    margin: 0 2.5rem;
+}
+
+
+
+
+/* ---media query ---*/
+
+@media only screen and (max-width: 540px) {
+
+.footer{
+    flex-direction: column;
+}
+.fmenu{
+    margin: 1rem 10px;
+}
+
+
+
+}

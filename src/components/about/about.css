@@ -1,0 +1,52 @@
+.about{
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h4{
+    color: #FE9E0D;
+}
+
+.about-content .heading{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: #4c4c4c;
+}
+
+p{
+    padding:1rem 0;
+    color: #adadad;
+}
+
+.btn button:first-child{
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #FE9E0D;
+}
+
+.btn button:last-child{
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+
+
+/* ---media query ---*/
+
+@media only screen and (max-width: 540px) {
+
+    .about{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
+    }
+}
